@@ -50,7 +50,7 @@ class Creature:
     def talk(self):
         pass
 
-class Ming:
+class Mind:
     pass
 
 class StatesCalculator:
