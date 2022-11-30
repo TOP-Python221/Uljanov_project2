@@ -69,16 +69,6 @@ class StatesCalculator:
     def new_creature(self) -> Creature:
         pass
 
-class StatesCalculator:
-
-    def new_body(self) -> Body:
-        pass
-
-    def new_mind(self) -> 'Mind':
-        pass
-
-    def new_creature(self) -> Creature:
-        pass
 
 class PersistenceManager:
     pass
