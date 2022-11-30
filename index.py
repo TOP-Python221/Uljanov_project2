@@ -1,5 +1,6 @@
 from datetime import datetime as dt
 import dataclasses as dataclasses
+from pathlib import *
 
 
 class Body:
@@ -71,15 +72,24 @@ class StatesCalculator:
 
 
 class PersistenceManager:
-    pass
+    def __int__(self, default_config_path: str):
+        self.default_config_path = default_config_path
 
-class StatesManager:
-    """ класс опекун """
+
     def read_file(self) -> 'CharacterState':
         pass
 
     def write_file(last_state: 'CharacterState') -> None:
         pass
+
+
+
+class StatesManager:
+    def __init__(self, name: str, body_history: list['BodyState']):
+        self.name = name
+        self.brithdate = dt
+        self.body_history = body_history
+
 
 
 class BodyState:
