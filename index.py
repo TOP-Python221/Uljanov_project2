@@ -91,14 +91,10 @@ class StatesManager:
     def write_file(last_state: 'CharacterState') -> None:
         pass
 
-class StatesManager:
-    pass
 
 class BodyState:
     pass
 
-class Mind:
-   pass
 
 class MindState:
     pass
