@@ -2,7 +2,6 @@ from datetime import datetime as dt
 import dataclasses as dataclasses
 
 
-
 class Body:
     # для хранения текущих (мгновенных) значений
     def __init__(self,
